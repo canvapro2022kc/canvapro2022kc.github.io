@@ -37,8 +37,16 @@ button[type="button"]{
     background-color: red;
 }
 
-#holder {
-    border: solid 1px red;
-    width: 400px;
-    background-color: white;
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-control {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.form-control:last-child {
+    margin-right: 0; 
 }
