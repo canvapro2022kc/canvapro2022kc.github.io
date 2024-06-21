@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smooth Operator</title>
+  <link href="bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5); 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .img-small{
+        max-width: 80px;
+        height: auto;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*rwpOxkNX0UN5A3BE28HLTQ.png" alt="Logo" height="40">
+      Smooth Operator
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sign In</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="bg-light p-5 rounded-lg m-3 text-center position-relative">
+    <img src="https://images.ps-aws.com/c?url=https%3A%2F%2Fd3cm515ijfiu6w.cloudfront.net%2Fwp-content%2Fuploads%2F2022%2F02%2F17133040%2FFLzSpBPXEAAtxLj-1.jpg" class="img-fluid rounded w-100" alt="Cover Photo" style="max-height: 400px; object-fit: cover;">
+    <div class="overlay">
+        <div>
+            <h1 class="display-4">Welcome to Smooth Operator</h1>
+            <p class="lead">We offer you goodies that are inspired from formula one.</p>
+        </div>
+    </div>
+  </div>
+  
+
+<div class="container">
+  <div class="row">
+
+    <div class="col-lg-4 mb-4">
+      <div class="card">
+        <img src="https://www.fuelforfans.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw14216d6f/images/large/701223388001_pp_01_ScuderiaFerrariF1.jpg?sw=1600&sh=1600&sm=fit" class="card-img-top" alt="Product 1">
+        <div class="card-body">
+          <h5 class="card-title">Scuderia Ferrari Team 2023 T-shirt</h5>
+          <p class="card-text">$32.50</p>
+          <ul class="list-unstyled">
+            <li>- Breathable Fabric</li>
+            <li>- 100% Cotton</li>
+            <li>- Crew Neck</li>
+            <li>- Color: Rosso Corsa</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-lg-4 mb-4">
+      <div class="card">
+        <img src="https://www.fuelforfans.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw593f8fb6/images/large/701230722001_pp_01_mclarenf1.jpg?sw=400&sh=400&sm=fit" class="card-img-top" alt="Product 2">
+        <div class="card-body">
+          <h5 class="card-title">2024 Team New Era 4FORTY Cap</h5>
+          <p class="card-text">$43.00</p>
+          <ul class="list-unstyled">
+            <li>- Matte McLaren Speedmark logo on the front</li>
+            <li>- One Size</li>
+            <li>- Snap Closure</li>
+            <li>- Contrast 'McLaren' label at the back</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-lg-4 mb-4">
+      <div class="card">
+        <img src="https://www.fuelforfans.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw8472066d/images/large/701228064001_pp_01_ferrari.jpg?sw=1600&sh=1600&sm=fit" class="card-img-top" alt="Product 3">
+        <div class="card-body">
+          <h5 class="card-title">2024 Miami GP Team Varsity Jacket</h5>
+          <p class="card-text">$470.00</p>
+          <ul class="list-unstyled">
+            <li>- Side Pockets</li>
+            <li>- Wool Bomber Jacket</li>
+            <li>- Special Edition Blue Varsity Jacket</li>
+            <li>- Regular fit</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-light py-4">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-4 mb-4">
+        <img src="https://static.thenounproject.com/png/1094223-200.png" class="img-fluid rounded-circle mb-3 img-small" alt="Our Team">
+        <h4>Our Team</h4>
+        <p>We aim to make formula one fans happy by delivering the goodies by their doorstep.</p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/003/731/316/small_2x/web-icon-line-on-white-background-image-for-web-presentation-logo-icon-symbol-free-vector.jpg" class="img-fluid rounded-circle mb-3 img-small" alt="Community">
+        <h4>Community</h4>
+        <p>We'll make it easier for you! We ship nationwide! Formula one community is everywhere.</p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="https://static.thenounproject.com/png/605892-200.png" class="img-fluid rounded-circle mb-3 img-small" alt="Chat Support">
+        <h4>Chat Support</h4>
+        <p>If you encounter any issues or need help with, ask for help from the chat operator.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container py-4">
+  <div class="text-center">
+    <h2>We'd Love to Hear from You</h2>
+    <a href="#" class="btn btn-primary">Contact Us</a>
+  </div>
+</div>
+
+<footer class="bg-dark text-light py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>About Us</h5>
+          <p>Smooth Operator is dedicated to providing quality service to our customers.</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Connect With Us</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>&copy; 2024 Smooth Operator. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+
+<script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
