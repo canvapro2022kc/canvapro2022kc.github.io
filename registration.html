@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <script type="text/javascript">
+        function validateForm() {
+            // Basic validation example: Check if username field is empty
+            var username = document.getElementById("username").value.trim();
+            
+            if (username === "") {
+                alert("Please enter a username.");
+                return false;
+            }
+            
+            // You can add more validations for other fields as needed
+            
+            // If all validations pass, proceed to redirect
+            redirectToLogin();
+        }
+        
+        function redirectToLogin() {
+            // Redirect to login.html
+            window.location = "login.html";
+        }
+    </script>
+</head>
+<body>
+    <h2>User Registration Form</h2>
+    <form onsubmit="return validateForm()">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br><br>
+        
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <input type="submit" value="Submit Me">
+    </form>
+</body>
+</html>
